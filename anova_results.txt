@@ -1,0 +1,17 @@
+              df     sum_sq   mean_sq         F    PR(>F)
+COLOUR       1.0   1.121880  1.121880  1.450353  0.231343
+FLAVOUR      1.0   1.508554  1.508554  1.950240  0.165684
+TEXTURE      1.0   6.534159  6.534159  8.447282  0.004511
+TASTE        1.0   0.510396  0.510396  0.659834  0.418567
+APPEARANCE   1.0   0.508235  0.508235  0.657040  0.419551
+Residual    99.0  76.578681  0.773522       NaN       NaN
+
+Explanation of the ANOVA Results:
+=================================
+
+The ANOVA table provides information about the statistical significance of each independent variable (COLOUR, FLAVOUR, TEXTURE, TASTE, and APPEARANCE) in relation to the ACCEPTABILITY of the food samples.
+
+The 'F' column represents the F-statistic, which is a measure of the variation between groups relative to the variation within groups. A larger F-value indicates a more significant effect.
+The 'PR(>F)' column represents the p-value, which indicates the probability of observing a result as extreme as the one obtained if the null hypothesis is true. A smaller p-value indicates a more significant effect.
+If the p-value is below a certain significance level (e.g., 0.05), it suggests that the independent variable has a statistically significant effect on ACCEPTABILITY.
+
